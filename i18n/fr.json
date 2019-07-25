@@ -967,5 +967,20 @@
 	"data files": "data files____",
 	"Read me": "Read me____",
 	"Additional information": "Additional information____",
-	"NA": "NA____"
+	"NA": "NA____",
+	"XLS": "XLS",
+	"SHP": "SHP",
+	"ODT": "ODT",
+	"GeoJSON": "GeoJSON",
+	"CSV": "CSV",
+	"Licence du gouvernement ouvert à Canada": "Licence du gouvernement ouvert à Canada",
+	"Creative Commons Attribution 4.0 International": "Creative Commons Attribution 4.0 International",
+	"Collection": "Collection___",
+	"Next": "Next___",
+	"datasets found": "datasets found___",
+	"Montreal Open Data": "Donnée Montreal",
+	"Pour Nous Suivre__": "Pour Nous Suivre__",
+	"Ensembles de donnée récemment ajoutés ou mis á jour": "Ensembles de donnée récemment ajoutés ou mis á jour",
+	"Evenements___": "Evenements___",
+	"Ensembles de donnée récemment ajoutés ou mis á jour___": "Ensembles de donnée récemment ajoutés ou mis á jour___"
 }
