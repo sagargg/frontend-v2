@@ -4,7 +4,20 @@
 	"foo": "fox",
 	"bar": "bax",
 	"Menu": "Menu",
-	"News": "News_",
 	"Data": "Data",
-	"Search": "Search"
+	"Search": "Search",
+	"Dataset": "Dataset",
+	"Home": "Home",
+	"Download": "Download",
+	"Organization": "Organization",
+	"More...": "More...",
+	"This is a preview version. There might be more data in the original version.": "This is a preview version. There might be more data in the original version.",
+	"Size": "Size",
+	"Format": "Format",
+	"Created": "Created",
+	"News": "News",
+	"data files": "data files",
+	"Read me": "Read me",
+	"Additional information": "Additional information",
+	"NA": "NA"
 }

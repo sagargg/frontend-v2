@@ -958,10 +958,14 @@
 	"No followers": "Aucun suiveur",
 	"Search Users": "Rechercher des utilisateurs",
 	"Your password must be 8 characters or longer.": "Votre mot de passe doit comporter au moins 8 caractères.",
-	"Collections": "Collections",
-	"Menu": "Menu",
-	"News": "News",
-	"More...": "More...",
-	"This is a preview version. There might be more data in the original version.": "This is a preview version. There might be more data in the original version.",
-	"Size": "Size"
+	"Collections": "Collections____",
+	"Menu": "Menu____",
+	"News": "News____",
+	"More...": "More...____",
+	"This is a preview version. There might be more data in the original version.": "____This is a preview version. There might be more data in the original version.____",
+	"Size": "Size____",
+	"data files": "data files____",
+	"Read me": "Read me____",
+	"Additional information": "Additional information____",
+	"NA": "NA____"
 }
