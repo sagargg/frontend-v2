@@ -1,4 +1,5 @@
 {
+	"Order": "Ordre",
 	"Complete": "Terminé",
 	"Pending": "En attente",
 	"Submitting": "En cours d'envoi",
@@ -959,5 +960,8 @@
 	"Your password must be 8 characters or longer.": "Votre mot de passe doit comporter au moins 8 caractères.",
 	"Collections": "Collections",
 	"Menu": "Menu",
-	"News": "News"
+	"News": "News",
+	"More...": "More...",
+	"This is a preview version. There might be more data in the original version.": "This is a preview version. There might be more data in the original version.",
+	"Size": "Size"
 }
