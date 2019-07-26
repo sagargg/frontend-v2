@@ -1,1 +1,14 @@
-{}
+{
+	"Menu": "Menu",
+	"News": "News",
+	"Collections": "Collections",
+	"Data": "Data",
+	"Search": "Search",
+	"Montreal Open Data": "Montreal Open Data",
+	"Search Datasets": "Search Datasets",
+	"foo": "foo",
+	"bar": "bar",
+	"Pour Nous Suivre__": "Pour Nous Suivre__",
+	"Ensembles de donnée récemment ajoutés ou mis á jour___": "Ensembles de donnée récemment ajoutés ou mis á jour___",
+	"Evenements___": "Evenements___"
+}
