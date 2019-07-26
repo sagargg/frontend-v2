@@ -25,7 +25,7 @@ nconf.defaults({
   NODE_MODULES_PATH: process.env.NODE_MODULES_PATH || 'node_modules',
   PLUGINS: process.env.FE_PLUGINS || '',
   PLUGIN_DIR: process.env.PLUGIN_DIR || 'plugins',
-  GITHUB_BASEURL: process.env.GITHUB_BASEURL || 'https://raw.githubusercontent.com'
+  GITHUB_BASEURL: process.env.GITHUB_BASEURL || 'https://raw.githubusercontent.com',
   TRANSLATIONS: process.env.TRANSLATIONS || '/i18n'
 })
 
