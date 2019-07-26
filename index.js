@@ -25,11 +25,14 @@ module.exports.makeApp = function () {
   app.set('views', path.join(__dirname, '/views'))
 
   // i18n
-  const translationsDir = config.get('TRANSLATIONS') || '/i18n'
+  const translationsDir = config.get('TRANSLATIONS')
+  console.log('i18n-------',__dirname, translationsDir)
   i18n.configure({
+    locales: ['en', 'fr'],
     cookie: 'defaultLocale',
     directory: __dirname + translationsDir
   })
+
 
   // Middlewares
   // Theme comes first so it overrides
