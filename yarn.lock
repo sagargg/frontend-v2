@@ -1000,9 +1000,10 @@ ci-parallel-vars@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ci-parallel-vars/-/ci-parallel-vars-1.0.0.tgz#af97729ed1c7381911ca37bcea263d62638701b3"
 
-ckan_ng_montreal_theme@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ckan_ng_montreal_theme/-/ckan_ng_montreal_theme-1.0.1.tgz#68273cfe1879fa65c6230351d39ad86de8c6f501"
+ckan_ng_montreal_theme@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/ckan_ng_montreal_theme/-/ckan_ng_montreal_theme-1.0.6.tgz#878dfbcd11cf13825970a7a5e69e37808aa8dc20"
+  integrity sha512-ZefERpS/MuZ1p60/6CeK2/qJmRMbuVl3ttKeyENwi9hcQNPl4xKgtrlUb5SeehlojfCxyvDyJz2tp8x/nTDslA==
 
 class-utils@^0.3.5:
   version "0.3.6"
