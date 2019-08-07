@@ -24,8 +24,13 @@ module.exports.makeApp = function () {
   app.set('views', path.join(__dirname, '/views'))
 
   // i18n
-  const translationsDir = config.get('TRANSLATIONS') || '/i18n'
+  const translationsDir = config.get('TRANSLATIONS')
+  const defaultLocale = config.get('DEFAULT_LOCALE')
+  const locales = config.get('LOCALES').split(' ')
+  
   i18n.configure({
+    locales: locales,
+    defaultLocale: defaultLocale,
     cookie: 'defaultLocale',
     directory: __dirname + translationsDir
   })

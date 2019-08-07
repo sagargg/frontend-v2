@@ -547,6 +547,17 @@ In your translation file:
 }
 ```
 
+#### converting .po files
+
+It may be useful to convert existing `.po` files in which case you can do the following:
+
+```bash
+$ npm install -g po2json
+$ po2json -p -f mf lang.po lang.json
+```
+
+For more on po2json: https://www.npmjs.com/package/po2json
+
 #### i18n of the content
 
 You can have a page in WordPress with the same slug as original page plus locale at the end. E.g., for `/about` page we would have two pages on WP, `about` (English) and `about-da` (Danish). When fetching a content we can check the user's locale and get content in his/her language.
