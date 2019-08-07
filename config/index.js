@@ -25,7 +25,6 @@ nconf.defaults({
   NODE_MODULES_PATH: process.env.NODE_MODULES_PATH || 'node_modules',
   PLUGINS: process.env.FE_PLUGINS || '',
   PLUGIN_DIR: process.env.PLUGIN_DIR || 'plugins',
-<<<<<<< HEAD
   // CKAN pages PLUGIN
   CKAN_PAGES_URL: process.env.CKAN_PAGES_URL || api_url,
   // dashboard and maps PLUGIN
@@ -33,13 +32,10 @@ nconf.defaults({
   // carto plugin
   CARTO_USER: process.env.CARTO_USER || '',
   CARTO_APIKEY: process.env.CARTO_APIKEY || 'default_public'
-
-=======
-  GITHUB_BASEURL: process.env.GITHUB_BASEURL || 'https://raw.githubusercontent.com',
+  // i18n
   TRANSLATIONS: process.env.TRANSLATIONS || '/i18n',
   LOCALES: process.env.LOCALES || '',
   DEFAULT_LOCALE: process.env.DEFAULT_LOCALE || ''
->>>>>>> montreal-i18n
 })
 
 module.exports = {
