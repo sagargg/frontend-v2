@@ -66,5 +66,22 @@
 	"Follow a dataset or a group of data and receive notifications for future changes": "Follow a dataset or a group of data and receive notifications for future changes",
 	"Subscribe to news and get notified when new data are released": "Subscribe to news and get notified when new data are released",
 	"Help Energinet to provide better service and support": "Help Energinet to provide better service and support",
-	"Register": "Register"
+	"Register": "Register",
+	"data file": "data file",
+	"Toggle filters": "Toggle filters",
+	"Collection": "Collection",
+	"datasets found": "datasets found",
+	"Popular": "Popular",
+	"Previous": "Previous",
+	"Next": "Next",
+	"Mise en garde": "Mise en garde",
+	"Ensembles de donnée récemment ajoutés ou mis á jour": "Ensembles de donnée récemment ajoutés ou mis á jour",
+	"Actualités": "Actualités",
+	"Toutes les actualités": "Toutes les actualités",
+	"Événements": "Événements",
+	"Toutes les événements": "Toutes les événements",
+	"Evenements": "Evenements",
+	"Toutes les evenements": "Toutes les evenements",
+	"Pour Nous Suivre": "Pour Nous Suivre",
+	"Histoire de data": "Histoire de data"
 }

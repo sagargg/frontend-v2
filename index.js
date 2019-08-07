@@ -26,13 +26,15 @@ module.exports.makeApp = function () {
 
   // i18n
   const translationsDir = config.get('TRANSLATIONS')
-  console.log('i18n-------',__dirname, translationsDir)
+  const defaultLocale = config.get('DEFAULT_LOCALE')
+  const locales = config.get('LOCALES').split(' ')
+  
   i18n.configure({
-    locales: ['en', 'fr'],
+    locales: locales,
+    defaultLocale: defaultLocale,
     cookie: 'defaultLocale',
     directory: __dirname + translationsDir
   })
-
 
   // Middlewares
   // Theme comes first so it overrides
