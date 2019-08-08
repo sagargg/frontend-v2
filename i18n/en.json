@@ -31,5 +31,21 @@
 	"Name Ascending": "Name Ascending",
 	"Name Descending": "Name Descending",
 	"Last Modified": "Last Modified",
-	"Popular": "Popular"
+	"Popular": "Popular",
+	"Previous": "Previous",
+	"Next": "Next",
+	"Dataset": "Dataset",
+	"More...": "More...",
+	"data files": "data files",
+	"Download": "Download",
+	"This is a preview version. There might be more data in the original version.": "This is a preview version. There might be more data in the original version.",
+	"Read me": "Read me",
+	"Additional information": "Additional information",
+	"Size": "Size",
+	"NA": "NA",
+	"Created": "Created",
+	"Follow us": "Follow us",
+	"Events": "Events",
+	"Recently Added or updated datasets": "Recently Added or updated datasets",
+	"Share": "Share"
 }
