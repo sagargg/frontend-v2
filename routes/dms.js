@@ -172,7 +172,7 @@ module.exports = function () {
       }
 
       
-      // Determine when to show chart builder
+      // Determine when to show chart builder: 
       const chartBuilderFormats = ['csv', 'tsv']
       
       if (chartBuilderFormats.includes(resource.format)) controls = { showChartBuilder: true, showMapBuilder: true }
@@ -181,7 +181,7 @@ module.exports = function () {
       const dataExplorer = JSON.stringify({resources: [resource], views, controls}).replace(/'/g, "&#x27;")
       
       // Add Data Explorer item per resource
-      datapackage.dataExplorers.push(dataExplorer)
+      datapackage.dataExplorers.push(JSON.stringify({datapackage: dataExplorer}))
       datapackage.views.push(view)
     })
 
