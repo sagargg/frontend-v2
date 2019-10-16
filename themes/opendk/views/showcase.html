@@ -78,7 +78,13 @@
               {% endif %}
             </dl>
           </a>
-          <a id= "preview" class="data-file-type"  href="#resource-{{resource.name | replace(".", "_") }}">{{__('Preview')}}<a>
+          <a id="preview" class="data-file-type" href="#resource-{{resource.name | replace(".", "_") }}">
+            <dl class="data-file-type_inner">
+              <dt class="data-file-type_term">
+                {{__('Preview')}}
+              </dt>
+            </dl>
+          </a>
           {% for alt in resource.otherFormats %}
           <a class="data-file-type" href="/{{ owner.name }}/{{ dataset.name }}/r/{{ resource.name }}.{{ alt.format }}{{ '?v='+revisionId if revisionId }}">
             <dl class="data-file-type_inner">
@@ -235,17 +241,7 @@
     var query = document.getElementById('search-input').value;
     window.location.href = '/search?q=' + query;
   }
-  //scroll for preview
-  $("#preview").click(function(e) {
-    e.preventDefault();
-    console.log($(this).attr("href"))
-    var position = $($(this).attr("href")).offset().top
-    console.log(position)
-    $("body, html").animate({
-      scrollTop: position
-    }) 
-  });
-
+  
 </script>
 
 <link rel="stylesheet" media="screen" href="https://raw.githack.com/datopian/datapackage-views-js/v0.1.2/dist/css/main.css">
